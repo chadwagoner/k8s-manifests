@@ -123,7 +123,7 @@ spec:
         period: 10s
         host: ${HOSTNAME}
         hosts:
-        - https://state.default.svc.cluster.local:8080
+        - https://kube-state-metrics.kube-system.svc.cluster.local:8080
         bearer_token_file: /var/run/secrets/kubernetes.io/serviceaccount/token
         ssl:
           verification_mode: none
