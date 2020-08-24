@@ -6,9 +6,9 @@ spec:
   type: filebeat
   version: 7.9.0
   elasticsearchRef:
-    name: elasticsearch
+    name: quickstart
   kibanaRef:
-    name: kibana
+    name: quickstart
   config:
     filebeat:
       autodiscover:

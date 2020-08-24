@@ -6,9 +6,9 @@ spec:
   type: metricbeat
   version: 7.9.0
   elasticsearchRef:
-    name: elasticsearch
+    name: quickstart
   kibanaRef:
-    name: kibana
+    name: quickstart
   config:
     metricbeat:
       autodiscover:
