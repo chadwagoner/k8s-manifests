@@ -101,7 +101,7 @@ spec:
 apiVersion: beat.k8s.elastic.co/v1beta1
 kind: Beat
 metadata:
-  name: metricbeat
+  name: metricbeat-state
 spec:
   type: metricbeat
   version: 7.9.0
