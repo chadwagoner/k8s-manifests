@@ -138,7 +138,7 @@ spec:
     processors:
     - add_cloud_metadata: {}
     - add_host_metadata: {}
-  Deployment:
+  deployment:
     podTemplate:
       spec:
         serviceAccountName: metricbeat
